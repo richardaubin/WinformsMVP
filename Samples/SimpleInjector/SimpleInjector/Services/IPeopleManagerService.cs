@@ -2,7 +2,7 @@
 
 namespace SimpleInjector.Services
 {
-    public interface IPeopleManagerService
+    public interface IPeopleManagerService : IDisposable
     {
         IEnumerable<Person> GetPeople();
     }
